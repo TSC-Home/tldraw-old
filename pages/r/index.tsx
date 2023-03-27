@@ -6,7 +6,7 @@ export default function RandomRoomPage() {
   return (
     <>
       <Head>
-        <title>tldraw</title>
+        <title>draw</title>
       </Head>
     </>
   )

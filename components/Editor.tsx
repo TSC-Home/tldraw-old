@@ -38,7 +38,7 @@ const Editor = ({
 				autofocus
 				onMount={handleMount}
 				onPersist={handlePersist}
-				showMultiplayerMenu={false}
+				showMultiplayerMenu={true}
 				{...fileSystemEvents}
 				{...rest}
 			/>

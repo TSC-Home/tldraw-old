@@ -4,10 +4,6 @@ import type React from 'react'
 import '~styles/globals.css'
 import useGtag from '~utils/useGtag'
 
-const APP_NAME = 'tldraw (old)'
-const APP_DESCRIPTION = 'A tiny little drawing app, ye olde original version.'
-const APP_URL = 'https://old.tldraw.com'
-const IMAGE = 'https://old.tldraw.com/social-image.png'
 
 function MyApp({ Component, pageProps }: any) {
 	useGtag()
@@ -15,29 +11,7 @@ function MyApp({ Component, pageProps }: any) {
 	return (
 		<>
 			<Head>
-				<meta name="application-name" content={APP_NAME} />
-				<meta name="apple-mobile-web-app-capable" content="yes" />
-				<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-				<meta name="apple-mobile-web-app-title" content={APP_NAME} />
-				<meta name="description" content={APP_DESCRIPTION} />
-				<meta name="format-detection" content="telephone=no" />
-				<meta name="mobile-web-app-capable" content="yes" />
-				<meta name="theme-color" content="#fafafa" />
-
-				<meta name="twitter:url" content={APP_URL} />
-				<meta name="twitter:title" content={APP_NAME} />
-				<meta name="twitter:description" content={APP_DESCRIPTION} />
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:creator" content="@tldraw" />
-				<meta name="twitter:site" content="@tldraw" />
-				<meta name="twitter:image" content={IMAGE} />
-
-				<meta property="og:type" content="website" />
-				<meta property="og:title" content={APP_NAME} />
-				<meta property="og:description" content={APP_DESCRIPTION} />
-				<meta property="og:site_name" content={APP_NAME} />
-				<meta property="og:url" content={APP_URL} />
-				<meta property="og:image" content={IMAGE} />
+				
 
 				<meta
 					name="viewport"
@@ -52,7 +26,7 @@ function MyApp({ Component, pageProps }: any) {
 					href="/icons/apple-touch-icon.png"
 				/>
 
-				<title>tldraw</title>
+				<title>draw</title>
 			</Head>
 			<Component {...pageProps} />
 		</>

@@ -15,7 +15,7 @@ const ReadOnlyMultiplayerEditor = ({ document }: Props) => {
 				autofocus
 				disableAssets={false}
 				showPages={false}
-				showMultiplayerMenu={false}
+				showMultiplayerMenu={true}
 				onSaveProjectAs={onSaveProjectAs}
 				onSaveProject={onSaveProject}
 				readOnly

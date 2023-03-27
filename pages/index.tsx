@@ -9,7 +9,7 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>tldraw</title>
+				<title>HEY</title>
 			</Head>
 			<Editor id="home" />
 		</>

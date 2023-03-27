@@ -36,7 +36,7 @@ export default function Room({ id, document, error }: RoomProps) {
 	return (
 		<>
 			<Head>
-				<title>tldraw - {id}</title>
+				<title>draw - {id}</title>
 			</Head>
 			<ReadOnlyMultiplayerEditor roomId={id} document={document} />
 		</>
